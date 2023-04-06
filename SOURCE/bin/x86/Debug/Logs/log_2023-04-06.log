@@ -1,0 +1,72 @@
+2023-04-06 22:11:27,055 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+
+
+SqlNado.SqlNadoException: SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+   konum: SqlNado.SQLiteDatabase.HookNativeProcs()
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath, SQLiteOpenOptions options)
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.GetSettingByKey(String key) D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 77
+2023-04-06 22:11:27,464 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+
+
+SqlNado.SqlNadoException: SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+   konum: SqlNado.SQLiteDatabase.HookNativeProcs()
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath, SQLiteOpenOptions options)
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.GetOpenTrades() D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 189
+2023-04-06 22:15:03,133 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+
+
+SqlNado.SqlNadoException: SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+   konum: SqlNado.SQLiteDatabase.HookNativeProcs()
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath, SQLiteOpenOptions options)
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.GetSettingByKey(String key) D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 77
+2023-04-06 22:15:03,569 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+
+
+SqlNado.SqlNadoException: SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+   konum: SqlNado.SQLiteDatabase.HookNativeProcs()
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath, SQLiteOpenOptions options)
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.GetOpenTrades() D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 189
+2023-04-06 22:15:19,109 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+
+
+SqlNado.SqlNadoException: SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+   konum: SqlNado.SQLiteDatabase.HookNativeProcs()
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath, SQLiteOpenOptions options)
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.IsDbCreatedOrSynced() D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 30
+2023-04-06 22:17:10,555 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+
+
+SqlNado.SqlNadoException: SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+   konum: SqlNado.SQLiteDatabase.HookNativeProcs()
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath, SQLiteOpenOptions options)
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.GetSettingByKey(String key) D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 86
+2023-04-06 22:17:10,886 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+
+
+SqlNado.SqlNadoException: SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+   konum: SqlNado.SQLiteDatabase.HookNativeProcs()
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath, SQLiteOpenOptions options)
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.GetOpenTrades() D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 198
+2023-04-06 22:19:54,691 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+
+
+SqlNado.SqlNadoException: SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+   konum: SqlNado.SQLiteDatabase.HookNativeProcs()
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath, SQLiteOpenOptions options)
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.GetSettingByKey(String key) D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 86
+2023-04-06 22:19:55,045 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+
+
+SqlNado.SqlNadoException: SQN:0029: SQLNado compilation is invalid. The process is running as 32-bit, using the Windows/Azure 'winsqlite3.dll' but without the WINSQLITE define. Contact the developer.
+   konum: SqlNado.SQLiteDatabase.HookNativeProcs()
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath, SQLiteOpenOptions options)
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.GetOpenTrades() D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 198
