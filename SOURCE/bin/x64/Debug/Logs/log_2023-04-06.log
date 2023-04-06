@@ -1,0 +1,43 @@
+2023-04-06 22:21:57,375 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQLITE_ERROR (1): SQL error or missing database. No such table: Settings. SQL statement was: `SELECT* FROM "Settings" WHERE "Key"=? LIMIT 1`.
+
+
+SqlNado.SQLiteException: SQLITE_ERROR (1): SQL error or missing database. No such table: Settings. SQL statement was: `SELECT* FROM "Settings" WHERE "Key"=? LIMIT 1`.
+   konum: SqlNado.SQLiteDatabase.CheckError(SQLiteErrorCode code, String sql, Boolean throwOnError, String methodName)
+   konum: SqlNado.SQLiteStatement..ctor(SQLiteDatabase database, String sql, Func`2 prepareErrorHandler)
+   konum: SqlNado.SQLiteDatabase.CreateStatement(String sql, Func`2 prepareErrorHandler)
+   konum: SqlNado.SQLiteDatabase.StatementPool.Get()
+   konum: SqlNado.SQLiteDatabase.GetOrCreateStatement(String sql)
+   konum: SqlNado.SQLiteDatabase.PrepareStatement(String sql, Func`2 errorHandler, Object[] args)
+   konum: SqlNado.SQLiteDatabase.<Load>d__228.MoveNext()
+   konum: System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   konum: SqlNado.SQLiteDatabase.LoadByPrimaryKey(Type objectType, Object key, SQLiteLoadOptions options)
+   konum: SqlNado.SQLiteDatabase.LoadByPrimaryKey[T](Object key, SQLiteLoadOptions options)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.GetSettingByKey(String key) D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 87
+2023-04-06 22:21:57,429 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQLITE_ERROR (1): SQL error or missing database. No such table: Trades. SQL statement was: `SELECT "Id","Symbol","BuyPrice","ExpectedSellPrice","SellPrice","Quantity","BuyQuoteTotalPrice","SellQuoteTotalPrice","TradeState","BuyTradeDateTime","SellTradeDateTime" FROM "Trades"`.
+
+
+SqlNado.SQLiteException: SQLITE_ERROR (1): SQL error or missing database. No such table: Trades. SQL statement was: `SELECT "Id","Symbol","BuyPrice","ExpectedSellPrice","SellPrice","Quantity","BuyQuoteTotalPrice","SellQuoteTotalPrice","TradeState","BuyTradeDateTime","SellTradeDateTime" FROM "Trades"`.
+   konum: SqlNado.SQLiteDatabase.CheckError(SQLiteErrorCode code, String sql, Boolean throwOnError, String methodName)
+   konum: SqlNado.SQLiteStatement..ctor(SQLiteDatabase database, String sql, Func`2 prepareErrorHandler)
+   konum: SqlNado.SQLiteDatabase.CreateStatement(String sql, Func`2 prepareErrorHandler)
+   konum: SqlNado.SQLiteDatabase.StatementPool.Get()
+   konum: SqlNado.SQLiteDatabase.GetOrCreateStatement(String sql)
+   konum: SqlNado.SQLiteDatabase.PrepareStatement(String sql, Func`2 errorHandler, Object[] args)
+   konum: SqlNado.SQLiteDatabase.<Load>d__230`1.MoveNext()
+   konum: System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   konum: System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   konum: System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.GetOpenTrades() D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 199
+2023-04-06 22:22:09,535 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> SQLITE_CANTOPEN (14): Unable to open the database file. Unable to open database file.
+
+
+SqlNado.SQLiteException: SQLITE_CANTOPEN (14): Unable to open the database file. Unable to open database file.
+   konum: SqlNado.SQLiteDatabase.CheckError(SQLiteErrorCode code, String sql, Boolean throwOnError, String methodName)
+   konum: SqlNado.SQLiteDatabase..ctor(String filePath, SQLiteOpenOptions options)
+   konum: SmartCryptoBot.Helpers.SQLiteDbHelper.IsDbCreatedOrSynced() D:\Blockchain\Binance-Trading\SOURCE\Helpers\SQLiteDbHelper.cs içinde: satýr 30
+2023-04-06 22:24:07,521 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> Server error: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
+
+
+2023-04-06 22:26:03,073 [1] ERROR SmartCryptoBot.Helpers.SQLiteDbHelper ==> Server error: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
+
+
