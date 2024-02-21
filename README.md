@@ -18,7 +18,6 @@ The Binance trading bot for .NET is an advanced software program designed to aut
 
 The bot is designed to help traders maximize their profits by analyzing market trends, identifying the most promising trading pairs, and automatically executing trades based on a configurable set of rules and strategies. The internal logic implemented in the bot is highly sophisticated, and it is capable of analyzing market data in real-time to identify trends and patterns that may signal opportunities for profitable trades.
 
-![alt text](https://github.com/JoeKaram78/ChatGPT-Binance-Trading/blob/main/screen.png?raw=true)
 
 ### Requirements:
 - .Net framework 4.6.1
@@ -27,7 +26,6 @@ The bot is designed to help traders maximize their profits by analyzing market t
 - Must be compiled as x86
 
 ### Setup:
-- [Clone](https://github.com/JoeKaram78/ChatGPT-Binance-Trading/archive/refs/heads/main.zip) repository and run compiled files
 - Enter binance keys (testnet or live)
 - Set trading limit
 - Start/Stop bot
